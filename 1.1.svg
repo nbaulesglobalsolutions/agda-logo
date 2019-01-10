@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -4 23 8" stroke-width="1" stroke="black" fill="none">
+	<g id="a">
+		<circle cx="4" cy="0" r="1.5" />
+		<path stroke-linecap="square" d="M 5.5 -1.5 V 1.5" />
+	</g>
+	<use href="#a" x="5" />
+	<use href="#a" x="10" />
+	<use href="#a" x="15" />
+	<mask id="m">
+		<rect x="0" y="-4" width="23" height="8" fill="white" stroke="none" />
+		<circle cx="9" cy="2" r="2.5" />
+		<path d="M 14.5 -6 V 0 M 16.5 -6 V0" />
+	</mask>
+	<path d="M 22.5 -3.5 L 22.5 3.5 H 4 A 3.5 3.5 0 0 1 0.5 0 3.5 3.5 0 0 1 4 -3.5 Z" mask="url(&quot;#m&quot;)" />
+</svg>
